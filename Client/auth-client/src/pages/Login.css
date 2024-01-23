@@ -1,0 +1,47 @@
+.bunny{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-part {
+  background-color: rgb(218, 219, 241);
+  flex: 1;
+  padding: 20px;
+}
+
+.left-part img {
+  width: 100%;
+  max-height: 200px;
+}
+
+/* Style for the right part (white background) */
+.right-part {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the login form inside the right part */
+.card {
+  min-width: 300px;
+  padding: 16px;
+  text-align: center;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card form .MuiTextField-root {
+  margin-bottom: 16px;
+}
+
+.card form .MuiButton-root {
+  margin-top: 16px;
+}
+.blackTextButton {
+  background-color: black;
+}
